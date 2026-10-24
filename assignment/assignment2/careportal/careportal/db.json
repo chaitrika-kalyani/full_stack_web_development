@@ -1,0 +1,26 @@
+{
+  "patients": [
+    { "id": 1, "name": "Ananya Rao", "age": 34, "gender": "Female", "phone": "98480 11122", "email": "ananya.rao@mail.com", "condition": "Migraine" },
+    { "id": 2, "name": "Rahul Verma", "age": 52, "gender": "Male", "phone": "98490 22233", "email": "rahul.v@mail.com", "condition": "Hypertension" },
+    { "id": 3, "name": "Meera Iyer", "age": 28, "gender": "Female", "phone": "99890 33344", "email": "meera.iyer@mail.com", "condition": "Skin allergy" },
+    { "id": 4, "name": "Imran Sheikh", "age": 45, "gender": "Male", "phone": "90000 44455", "email": "imran.s@mail.com", "condition": "Type 2 diabetes" },
+    { "id": 5, "name": "Lakshmi Devi", "age": 67, "gender": "Female", "phone": "98660 55566", "email": "lakshmi.d@mail.com", "condition": "Arthritis" },
+    { "id": 6, "name": "Karthik Reddy", "age": 9, "gender": "Male", "phone": "98850 66677", "email": "reddy.family@mail.com", "condition": "Seasonal fever" }
+  ],
+  "doctors": [
+    { "id": 1, "name": "Dr. Sunita Menon", "specialization": "Neurology", "experience": 14, "days": "Mon, Wed, Fri", "hours": "09:00 - 13:00" },
+    { "id": 2, "name": "Dr. Arvind Nair", "specialization": "Cardiology", "experience": 20, "days": "Tue, Thu, Sat", "hours": "10:00 - 16:00" },
+    { "id": 3, "name": "Dr. Farah Khan", "specialization": "Dermatology", "experience": 8, "days": "Mon, Tue, Thu", "hours": "11:00 - 17:00" },
+    { "id": 4, "name": "Dr. Prakash Joshi", "specialization": "Pediatrics", "experience": 11, "days": "Mon, Wed, Fri, Sat", "hours": "09:00 - 14:00" }
+  ],
+  "appointments": [
+    { "id": 1, "patientId": 1, "doctorId": 1, "date": "2026-10-12", "time": "09:30", "reason": "Recurring headaches", "status": "Pending" },
+    { "id": 2, "patientId": 2, "doctorId": 2, "date": "2026-10-13", "time": "10:30", "reason": "BP follow-up", "status": "Confirmed" },
+    { "id": 3, "patientId": 3, "doctorId": 3, "date": "2026-10-12", "time": "11:30", "reason": "Rash on arms", "status": "Pending" },
+    { "id": 4, "patientId": 4, "doctorId": 2, "date": "2026-10-10", "time": "12:00", "reason": "ECG review", "status": "Confirmed" },
+    { "id": 5, "patientId": 6, "doctorId": 4, "date": "2026-10-09", "time": "10:00", "reason": "Fever for 3 days", "status": "Completed" },
+    { "id": 6, "patientId": 5, "doctorId": 1, "date": "2026-10-14", "time": "11:00", "reason": "Dizziness", "status": "Pending" },
+    { "id": 7, "patientId": 1, "doctorId": 3, "date": "2026-10-08", "time": "14:00", "reason": "Skin check", "status": "Cancelled" },
+    { "id": 8, "patientId": 6, "doctorId": 4, "date": "2026-10-16", "time": "09:30", "reason": "Vaccination", "status": "Confirmed" }
+  ]
+}
